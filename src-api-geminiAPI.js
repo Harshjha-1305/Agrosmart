@@ -1,6 +1,6 @@
 // API Configuration and Gemini API calls
 const API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=';
-const API_KEY = ''; // Replace with your actual API key
+const API_KEY = 'AIzaSyBpXFr0L1cStGeYtUOalz8NLa4ca0A1UAY'; // Replace with your actual API key
 
 export const callGeminiAPI = async (prompt, imageBase64 = null, setAppIsOffline) => {
   if (!API_KEY) {
